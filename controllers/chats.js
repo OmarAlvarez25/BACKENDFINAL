@@ -1,6 +1,6 @@
 const { response } = require('express');
 
-const Chat = require('../models/chat');
+const Chat = require('../models/Chat');
 
 // Get all chats by sender id or receiver id
 const getChatsBySenderId = async (req, res = response) => {
